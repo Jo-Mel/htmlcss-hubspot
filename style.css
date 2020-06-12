@@ -244,13 +244,13 @@ ul li {
 }
 
 .row.wrapper {
-    height: 700px;
+    height: 100%;
     /* border: 1px solid black; */
     margin-bottom: 30px;
 }
  .row-wrapper .box {
     width: 33.33%;
-    height: 450px;
+    height: 500px;
     /* border: 1px solid black; */
     padding: 0 20px;
     float: left;
@@ -264,10 +264,56 @@ ul li {
     padding-right: 0;
 }
 
-.widget {
+.card {
+    text-align: center;
     background-color: white;
     height: 100%;
     border: 1px solid black;
+    padding: 0 20px;
+
+}
+
+.card .card-1, .card .card-2, .card .card-3{
+    height: 100%;
+    text-align: center;
+    /* background-color: red; */
+}
+
+.card-1 img {
+    height: 80px;
+    width: 100px;
+}
+
+.card-2 img {
+    height: 80px;
+    width: 100px;
+}
+
+.card-3 img {
+    height: 80px;
+    width: 100px;
+}
+
+.card-1, .card-2, .card-3 {
+    padding-top: 20px;
+}
+
+.card h2, .card h3, .card p, .card hr {
+    color: #33475b;
+    margin: 20px 0 20px;
+}
+
+.card hr {
+    margin-top: 40px;
+}
+
+.card .btn {
+    background-color: #ff7a59;
+    color: white;
+    padding: 15px 22px;
+    border: 1px solid #ff7a59;
+    border-radius: 3px;
+    margin-top: 30px;
 }
 
 .bg-tiffany {
