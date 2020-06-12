@@ -23,11 +23,17 @@
 
 .bg-lightblue {
     background-color: #f5f8fa;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 999;
 
     height: 40px;
 }
 
-.header-top {
+.fixed-menu {
+    /* font-size: 15px; */
     line-height: 40px;
     text-align: center;
 }
@@ -107,7 +113,7 @@ ul li {
     height: 100%;
 }
 .jumbotron {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 50%;
     height: 100%;
     position: relative;
