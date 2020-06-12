@@ -21,7 +21,11 @@
     height: 100%;
 }
 
-.bg-lightblue {
+body {
+    padding-top: 40px;
+}
+
+.bg-lightblue  {
     background-color: #f5f8fa;
     position: fixed;
     top: 0;
@@ -154,7 +158,116 @@ ul li {
 
 .bg-powder {
     background-color: #f5f8fa;
+    /* DA CANCELLARE */
+    height: 1200px;
+}
+
+.top-wrapper {
+    height: 350px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #33475b;
+    padding: 30px 0;
+    /* DA CANCELLARE */
+    border: 1px solid #ccc;
+}
+
+.top-wrapper img {
+    text-align: center;
+    width: 250px;
+    height: 180px;
+}
+
+.top-wrapper p {
+    width: 80%;
+    margin: 20px auto;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+.header-wrapper {
+    height: 300px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.header-wrapper .info {
+    width: 30%;
+    height: 100%;
+    /* DA CANCELLARE */
+    border: 1px solid #ccc;
+    text-align: center;
+    position: relative;
+    float: left;
+}
+ .info img {
+     width: 150px;
+     height: 80px;
+     position: absolute;
+     top: 30%;
+     left: 50%;
+     transform: translate(-50%, -30%);
+ }
+
+.btn-info {
+    background-color: #ff7a59;
+    color: white;
+    padding: 15px 22px;
+    border: 1px solid #ff7a59;
+    border-radius: 3px;
+    position: absolute;
+    top: 65%;
+    left: 55%;
+    transform: translate(-65%, -55%);
+}
+
+.crm {
+    margin-left: 30%;
+    padding: 60px 0;
+}
+
+.crm h2, .crm h3, .crm p {
+    color: #33475b;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 30px;
+}
+
+.crm ul li {
+    list-style: none;
+    float: left;
+}
+
+ .crm ul li:nth-child(odd) {
+    /* background-color: #ff7a59; */
+    color: #ff7a59;
+}
+
+.row.wrapper {
     height: 700px;
+    /* border: 1px solid black; */
+    margin-bottom: 30px;
+}
+ .row-wrapper .box {
+    width: 33.33%;
+    height: 450px;
+    /* border: 1px solid black; */
+    padding: 0 20px;
+    float: left;
+}
+
+.row-wrapper .box:first-child {
+    padding-left: 0;
+}
+
+.row-wrapper .box:last-child {
+    padding-right: 0;
+}
+
+.widget {
+    background-color: white;
+    height: 100%;
+    border: 1px solid black;
 }
 
 .bg-tiffany {
